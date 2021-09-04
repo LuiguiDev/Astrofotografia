@@ -14,11 +14,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path
-from django.http import HttpResponse
-
-def message(request):
-    return HttpResponse('Aquí encontraran un espacio para compartir sus ideas')
+from astrofotografia import views
 
 urlpatterns = [
-    path('messages/', message)
+    path('messages/', views.message)
 ]
