@@ -17,5 +17,7 @@ from django.urls import path
 from astrofotografia import views
 
 urlpatterns = [
-    path('messages/', views.message)
+    path('messages/', views.message),
+    path('challenges/', views.challenge),
+    path('login/<str:name>/<int:age>/', views.access)
 ]
