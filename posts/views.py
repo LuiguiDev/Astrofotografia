@@ -9,7 +9,7 @@ posts=[
     {
     'title': 'Aqui nomas',
     'user': 'Luigui',
-    'time': datetime.now().strftime('%B %Dth, %Y - %H:M hrs'),
+    'time': datetime.now().strftime('%B %Dth, %Y - %H:%M hrs'),
     'picture': 'https://picsum.photos/200/300?random=1',
     },
     {
